@@ -20,7 +20,7 @@ public class CapitalizeFirstLetter {
 		String sentence= sc.nextLine();
 		String result = upperCaseFirst(sentence); 
 		System.out.println(result);
-		
+		// why do you leave these space lines?
 		
 	
 	}

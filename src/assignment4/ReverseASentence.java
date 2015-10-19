@@ -2,6 +2,7 @@ package assignment4;
 
 import java.util.Scanner;
 
+// where is your Junit?
 public class ReverseASentence {
 	
 	public static void main(String[] args){
@@ -18,6 +19,7 @@ public class ReverseASentence {
 			space++;
 		}
 		
+		// you can use StringBuilder to append.
 		String result="";
 		for (int j= space-1;j>=0; j--){
 			result=result+eachWord[j]+" ";

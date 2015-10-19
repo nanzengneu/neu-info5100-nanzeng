@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 public class FindZeros {
 
-	
+	// where is you junit?
 	public static void main(String [] args){
 		int[] input={1,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0};
+		// you can use List<Integer> position = new ArrayList<>();
 		ArrayList<Integer> position = new ArrayList<Integer>();
 		
 		for (int i=0; i<input.length; i++){
@@ -14,7 +15,9 @@ public class FindZeros {
 				position.add(i);
 			}
 		} 
-		
+
+		// how do you know position is not empty?
+		// if the input is {0, 0}, your program will get null pointer exception.
 		if (position.get(0)>=2) {
 		   for (int k =0; k < position.get(0); k++) {
 			   System.out.print("0");

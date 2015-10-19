@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GuessNumber {
-	
+	// why in your program I can still continue to guess when you print out "I have 0 chances to try"?
 	public static void main(String[] args){
 		Random randomGenerator = new Random();
 		int i = randomGenerator.nextInt(99)+1;

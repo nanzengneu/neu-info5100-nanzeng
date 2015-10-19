@@ -2,6 +2,8 @@ package assignment4;
 
 import java.util.Scanner;
 
+// 1. your code will get null pointer exception when input is less than 6.
+// 2. you do not need the array int[number], you can reduce the space complexity to O(1).
 public class GenerateFibonacciNumber {
 	
 	public static void main(String[] args){

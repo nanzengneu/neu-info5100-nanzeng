@@ -2,6 +2,7 @@ package assignment4;
 
 import java.util.Scanner;
 
+
 public class CapitalizeFirstLetter {
 	
 	public static String upperCaseFirst(String value){

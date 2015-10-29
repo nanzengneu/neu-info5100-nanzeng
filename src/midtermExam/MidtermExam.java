@@ -4,7 +4,6 @@ import java.util.HashSet;
 
 import java.util.*; 
 
-
 public class MidtermExam {
 	
 	public static String printFizzBuzz(int n){

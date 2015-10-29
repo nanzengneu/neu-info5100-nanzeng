@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+
 public class MidtermExamTest {
 	int[] list1 = {0, 1, 0, 3, 12};
 	int[] list2 = {0, 3, 7, 8, 6, 4, 3, 0, 9};

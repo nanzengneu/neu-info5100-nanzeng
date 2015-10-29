@@ -16,7 +16,7 @@ public class MidtermExam {
 		}else if ( number%5==0 ){
 			return "buzz";
 		}else{
-			return "";
+			return " ";
 		}
 	}
  

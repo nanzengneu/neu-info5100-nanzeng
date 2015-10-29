@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.*; 
 
 public class MidtermExam {
-	
 	public static String printFizzBuzz(int n){
 		int number = n;
 		if (number%3==0 && number%5==0) {

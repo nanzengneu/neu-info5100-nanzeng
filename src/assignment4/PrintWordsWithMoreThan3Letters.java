@@ -2,6 +2,10 @@ package assignment4;
 
 import java.util.Scanner;
 
+// where is your junit?
+// if you input the example given by Prof., can you get the correct answer?
+// "Java is a cool OOP. It doesnt have multiple inheritance"
+// you do not ignore punctuation, ignored empty space only.
 public class PrintWordsWithMoreThan3Letters {
 	
 	public static void main(String[] args){

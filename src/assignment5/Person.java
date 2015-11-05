@@ -45,6 +45,7 @@ public class Person implements Comparable {
 	
 	}
 	
+	// where is @Override? -3
 	public boolean equals(Object o) {
 		Person p = (Person) o;
 		if (p.equals(p)) {
@@ -55,6 +56,7 @@ public class Person implements Comparable {
 	
 	}
 	
+	// why only use lastName? - 2
 	@Override
 	public int hashCode() {
 		return lastName.hashCode();	

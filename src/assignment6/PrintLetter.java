@@ -1,6 +1,5 @@
 package assignment6;
 
-
 public class PrintLetter {
 
 	public static void main(String[] args) {

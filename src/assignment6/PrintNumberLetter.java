@@ -1,5 +1,6 @@
 package assignment6;
 
+
 public class PrintNumberLetter {
 
 	public static void main(String[] args) {

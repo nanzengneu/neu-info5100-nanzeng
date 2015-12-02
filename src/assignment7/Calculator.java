@@ -12,7 +12,10 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-
+// Your calculator cannot correctly handle exceptions.
+// If user input operation before input number, your calculator will throw exception.
+// If user input two point, your calculator will also throw exception.
+// Your calculator can only use one time, how can we clean the old data and re-use it?
 public class Calculator extends JFrame implements ActionListener{
 	JPanel[] row = new JPanel[5];
 	JButton[] button = new JButton[16];

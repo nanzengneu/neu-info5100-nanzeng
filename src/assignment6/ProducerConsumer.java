@@ -1,5 +1,9 @@
 package assignment6;
 
+// It's better to support multiple producers and consumers
+// You should have a container to keep all produced products,
+// not create one then wait for consumer to consume.
+// It's a very low efficiency model.
 public class ProducerConsumer {
 	
 	public static void main(String[] args) {

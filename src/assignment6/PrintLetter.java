@@ -25,13 +25,14 @@ public class PrintLetter {
 class AThread extends Thread {
 	private BThread b;
 	
-	
+	// why this method is called get()?
 	public void getNextB(BThread b) {
 		this.b = b;
 	}
 	
 	@Override
 	public synchronized void run(){
+		// why do you need two loops? Do you think the for loop works here?
 		for (int i = 0; i < 10; i++) {
 			while (true) {
 				System.out.println("A");
